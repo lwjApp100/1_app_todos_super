@@ -1,0 +1,65 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/dizhi/dizhi",
+			"style": {
+				"navigationBarTitleText": "dizhi"
+			}
+		},
+		{
+			"path": "pages/phone/phone",
+			"style": {
+				"navigationBarTitleText": "phone"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "setting"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "裴钱的便携便签",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "white",
+		"selectedColor": "black",
+		"backgroundColor": "#498bc8",
+		"list": [
+			{
+				"iconPath": "./static/tabbar/bianqian_light.png",
+				"selectedIconPath": "./static/tabbar/bianqian_dart.png",
+				"pagePath": "pages/home/home",
+				"text": "备忘录"
+			},
+			{
+				"iconPath": "./static/tabbar/dizhi_light.png",
+				"selectedIconPath": "./static/tabbar/dizhi_dart.png",
+				"pagePath": "pages/dizhi/dizhi",
+				"text": "地址簿"
+			},
+			{
+				"iconPath": "./static/tabbar/phone_light.png",
+				"selectedIconPath": "./static/tabbar/phone_dart.png",
+				"pagePath": "pages/phone/phone",
+				"text": "电话簿"
+			},
+			{
+				"iconPath": "./static/tabbar/setting_light.png",
+				"selectedIconPath": "./static/tabbar/setting_dart.png",
+				"pagePath": "pages/setting/setting",
+				"text": "设置中心"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

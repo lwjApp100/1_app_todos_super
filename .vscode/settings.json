@@ -1,0 +1,82 @@
+{
+  "javascript.suggest.paths": true,
+  "typescript.suggest.paths": true,
+  "path-autocomplete.extensionOnImport": true,
+  "files.associations": {
+    "pages.json": "jsonc",
+    "manifest.json": "jsonc"
+  },
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/",
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/uni_modules": true
+  },
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "../static/styles/variables.css"
+  ],
+  // 注释高亮插件
+  "better-comments.tags": [
+    {
+      "tag": "todo",
+      "color": "#fff",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#FF8C00",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#18b566",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "qk",
+      "color": "#fff",
+      "strikethrough": false,
+      "backgroundColor": "#FF8C00"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  "color-highlight.languages": [
+    "jsonc",
+    "typescript",
+    "vue",
+    "javascript"
+  ],
+}

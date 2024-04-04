@@ -1,0 +1,6 @@
+// 获取页面内容区域的高度
+@function getPageContentHeight() {
+  @return calc(
+    100vh - var(--status-bar-height) - var(--window-top) - var(--window-bottom)
+  );
+}
