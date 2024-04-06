@@ -40,4 +40,5 @@ export default {
 /*每个页面公共css */
 @import "./commons/alone/colorUI/main.css";
 @import "./commons/alone/colorUI/icon.css";
+@import "./commons/alone/colorUI/animation.css";
 </style>

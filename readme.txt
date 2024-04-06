@@ -23,3 +23,18 @@
 电话簿
 
 设置中心
+
+
+
+
+
+# 
+
+```
+\temp\font_4494979_d3xaxyne7e>iconfont-tools
+? 设置输出文件夹名称： iconfont-weapp
+? 设置输出文件css文件名称： iconfont-weapp-icon
+? 设置css文件的prefix： t-icon
+? 设置字体的大小： 16px
+? 是否生产小程序原生组件： true
+```

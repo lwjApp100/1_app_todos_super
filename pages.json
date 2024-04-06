@@ -1,7 +1,7 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/home/home",
+			"path": "pages/bianqian/bianqian",
 			"style": {}
 		},
 		{
@@ -38,7 +38,7 @@
 			{
 				"iconPath": "./static/tabbar/bianqian_light.png",
 				"selectedIconPath": "./static/tabbar/bianqian_dart.png",
-				"pagePath": "pages/home/home",
+				"pagePath": "pages/bianqian/bianqian",
 				"text": "备忘录"
 			},
 			{
