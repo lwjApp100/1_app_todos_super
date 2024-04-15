@@ -3,8 +3,8 @@ import App from "./App";
 import "./uni.promisify.adaptor";
 import cuCustom from "./color_ui/v_custombar.vue";
 import { store } from "./commons/j_vuex.js";
-import "./styles/common.scss";
-import "./styles/iconfont-weapp-icon.css";
+import "./pages/c_common.scss";
+import "./pages/c_iconfont-weapp-icon.css";
 
 Vue.prototype.$vuex = store;
 Vue.component("cu-custom", cuCustom);

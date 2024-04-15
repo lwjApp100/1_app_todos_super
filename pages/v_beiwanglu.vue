@@ -64,8 +64,8 @@
 </template>
 
 <script>
-import ListItem from "./beiwanglu_list_item.vue";
-import { bwlGetListApi, bwlAddApi } from "../services/j_api.js";
+import ListItem from "./v_beiwanglu_list_item.vue";
+import { bwlGetListApi, bwlAddApi } from "./j_service_api.js";
 import ColorUIModalTemplate from "../commons/v_colorui_modal.vue";
 import ColorSelectTemplate from "../commons/v_colors_select.vue";
 import ToastTemplate from "../commons/v_toast.vue";
