@@ -1,23 +1,23 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/bianqian/bianqian",
+			"path": "pages/beiwanglu",
 			"style": {}
 		},
 		{
-			"path": "pages/dizhi/dizhi",
+			"path": "pages/dizhi",
 			"style": {
 				"navigationBarTitleText": "dizhi"
 			}
 		},
 		{
-			"path": "pages/phone/phone",
+			"path": "pages/phone",
 			"style": {
 				"navigationBarTitleText": "phone"
 			}
 		},
 		{
-			"path": "pages/setting/setting",
+			"path": "pages/setting",
 			"style": {
 				"navigationBarTitleText": "setting"
 			}
@@ -38,25 +38,25 @@
 			{
 				"iconPath": "./static/tabbar/bianqian_light.png",
 				"selectedIconPath": "./static/tabbar/bianqian_dart.png",
-				"pagePath": "pages/bianqian/bianqian",
+				"pagePath": "pages/beiwanglu",
 				"text": "备忘录"
 			},
 			{
 				"iconPath": "./static/tabbar/dizhi_light.png",
 				"selectedIconPath": "./static/tabbar/dizhi_dart.png",
-				"pagePath": "pages/dizhi/dizhi",
+				"pagePath": "pages/dizhi",
 				"text": "地址簿"
 			},
 			{
 				"iconPath": "./static/tabbar/phone_light.png",
 				"selectedIconPath": "./static/tabbar/phone_dart.png",
-				"pagePath": "pages/phone/phone",
+				"pagePath": "pages/phone",
 				"text": "电话簿"
 			},
 			{
 				"iconPath": "./static/tabbar/setting_light.png",
 				"selectedIconPath": "./static/tabbar/setting_dart.png",
-				"pagePath": "pages/setting/setting",
+				"pagePath": "pages/setting",
 				"text": "设置中心"
 			}
 		]

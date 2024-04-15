@@ -1,10 +1,10 @@
 import Vue from "vue";
 import App from "./App";
 import "./uni.promisify.adaptor";
-import cuCustom from "./commons/alone/colorUI/components/cu-custom.vue";
-import { store } from "./commons/alone/vuex/vuex.js";
+import cuCustom from "./color_ui/v_custombar.vue";
+import { store } from "./commons/j_vuex.js";
 import "./styles/common.scss";
-import "./styles/iconfont-weapp/iconfont-weapp-icon.css";
+import "./styles/iconfont-weapp-icon.css";
 
 Vue.prototype.$vuex = store;
 Vue.component("cu-custom", cuCustom);

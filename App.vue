@@ -38,7 +38,7 @@ export default {
 
 <style>
 /*每个页面公共css */
-@import "./commons/alone/colorUI/main.css";
-@import "./commons/alone/colorUI/icon.css";
-@import "./commons/alone/colorUI/animation.css";
+@import "./color_ui/c_main.css";
+@import "./color_ui/c_icon.css";
+@import "./color_ui/c_animation.css";
 </style>

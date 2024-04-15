@@ -64,16 +64,16 @@
 </template>
 
 <script>
-import ListItem from "./list_item.vue";
-import { bwlGetListApi, bwlAddApi } from "../../services/apiService.js";
-import ColorUIModalTemplate from "../../commons/dependent/colorui_modal.vue";
-import ColorSelectTemplate from "../../commons/dependent/colors_select.vue";
-import ToastTemplate from "../../commons/dependent/toast.vue";
-import IconSelectTemplate from "../../commons/dependent/icons_select.vue";
+import ListItem from "./beiwanglu_list_item.vue";
+import { bwlGetListApi, bwlAddApi } from "../services/j_api.js";
+import ColorUIModalTemplate from "../commons/v_colorui_modal.vue";
+import ColorSelectTemplate from "../commons/v_colors_select.vue";
+import ToastTemplate from "../commons/v_toast.vue";
+import IconSelectTemplate from "../commons/v_icons_select.vue";
 
 // @no-check
 export default {
-  name: "Home",
+  name: "BeiWangLu",
   data() {
     return {
       showModal: false,
@@ -143,7 +143,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../commons/alone/utils.scss";
+@import "../commons/c_utils.scss";
 .home_page {
   .right_box {
     display: flex;

@@ -1,8 +1,5 @@
-import {
-  commonStorageGet,
-  commonStorageSet,
-} from "../commons/alone/storage.js";
-import { commonTimeGetCurrentTime } from "../commons/alone/commonTime.js";
+import { commonStorageGet, commonStorageSet } from "../commons/j_storage.js";
+import { commonTimeGetCurrentTime } from "../commons/j_time.js";
 
 const bwlBase = "pqdbxbq_bwl_none_localkey";
 
